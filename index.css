@@ -1,6 +1,6 @@
 body{
     padding: 40px 30px;
-    background-color: #e8eae6;
+    background-color: white;
 }
 header{
     display: flex;
@@ -100,4 +100,50 @@ input{
     width: fit-content;
     margin-top: 20px;
     margin-left: auto;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sec-box{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 15px;
+    height: 450px;
+}
+.close{
+    margin-top: 50px;
+    width: 400px;
+}
+.space{
+    margin-top: 100px;
+}
+.sec-box img{
+    border-radius: 10px;
+}
+.sec-box label{
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.space1{
+    margin-bottom: 100px;
+}
+span{
+    color: black;
+    margin-left: auto;
+}
+.last{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 35%;
+    margin-right: 20px;
 }
