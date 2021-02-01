@@ -196,3 +196,44 @@ span{
 .list ul li{
     list-style: none;
 }
+
+
+@media (max-width: 720px){
+    .upper-text{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    header nav{
+        margin-left: 20px;
+    }
+    .hero{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .sec-box{
+        height: 350px;
+    }
+    .last{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: baseline;
+    }
+    .left{
+        margin-left: 20px;
+    }
+    .dash{
+        margin-left: 20px;
+        width: 500px;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .list, .social, .email{
+        margin: 20px;
+    }
+    .list{
+        margin-left: -15px;
+    }
+}
